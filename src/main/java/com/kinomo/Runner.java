@@ -29,11 +29,11 @@ public class Runner {
 
         dao.initialize("users");
         System.out.println("--------------");
-        System.out.println(dao.getById("5c5c41519c25662e9935d151").getName());
+        System.out.println(dao.getById("59006ac4218b450c1e10276d").getName());
         System.out.println("--------------");
-       // System.out.println(dao.getAll());
+        //System.out.println(dao.getAll());
         System.out.println("--------------");
-        //System.out.println(dao.getUnique());
+       // System.out.println(dao.getUnique());
 
  //******       FOR  JSON:  ***********
 

@@ -41,7 +41,7 @@ public class JsonDAO implements DAO {
         User a = null;
         for(User user: users) {
             if(user.getId().equals(userId)) {
-               a = user;
+                a = user;
             }
         }
        return a;
